@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Charts_ZM_Example' do
+  pod 'Charts_ZM', :path => '../'
+
+  target 'Charts_ZM_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
