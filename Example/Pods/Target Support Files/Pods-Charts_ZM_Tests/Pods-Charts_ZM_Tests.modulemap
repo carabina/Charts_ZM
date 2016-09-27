@@ -1,0 +1,6 @@
+framework module Pods_Charts_ZM_Tests {
+  umbrella header "Pods-Charts_ZM_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

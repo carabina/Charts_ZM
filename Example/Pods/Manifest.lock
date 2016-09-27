@@ -1,0 +1,23 @@
+PODS:
+  - Charts_ZM (0.1.0)
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - Charts_ZM (from `../`)
+  - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  Charts_ZM:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Charts_ZM: 7176db416728d1295d82c99a5d6a04d16f46af9d
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+
+PODFILE CHECKSUM: 5879f7424afafea3c37b35c356b202ab6d6c6cc7
+
+COCOAPODS: 1.1.0.rc.2
